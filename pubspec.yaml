@@ -1,0 +1,40 @@
+name: task_manager
+description: Une application de gestion de tâches.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State management
+  provider: ^6.0.5
+  
+  # Local storage
+  shared_preferences: ^2.2.0
+  
+  # Utilities
+  uuid: ^4.5.1
+  intl: ^0.20.2
+  
+  # UI components
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Add fonts if needed
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
